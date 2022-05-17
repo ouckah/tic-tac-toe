@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Tic Tac Toe</title>
+        <link href='style.css' rel='stylesheet'/>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="header">
+                <h1>Tic Tac Toe</h1>
+                <h2>Current Mode</h2>
+                <p id='mode'>MODE</p>
+                <h2 id='winner'></h2>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="grid">
+
+                <div class="row">
+
+                    <div id='0' class="slot"></div>
+                    <div id='1' class="slot"></div>
+                    <div id='2' class="slot"></div>
+
+                </div>
+                <div class="row">
+                    
+                    <div id='3' class="slot"></div>
+                    <div id='4' class="slot"></div>
+                    <div id='5' class="slot"></div>
+
+                </div>
+                <div class="row">
+                    
+                    <div id='6' class="slot"></div>
+                    <div id='7' class="slot"></div>
+                    <div id='8' class="slot"></div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="buttons">
+
+                <button id='pvp' class="button">Player vs. Player</button>
+                <button id='pvc' class="button">Player vs. Computer</button>
+
+            </div>
+            <div class="buttons">
+
+                <button id='reset' class="button">Reset</button>
+
+            </div>
+        </div>
+
+    </body>
+
+    <script src="//unpkg.com/brain.js"></script>
+    <script src='main.js'></script>
+
+</html>
